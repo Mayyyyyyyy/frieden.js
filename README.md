@@ -5,7 +5,13 @@
   ```javascript
    npm i sakura
   ```
-## 2,API
-| function name | effect   | params     | output        |
-| ----          | ----     | ----       | ----          | 
-| checkType     | check input type | *input: any js data *type: eg,'String' | Boolean|
+## 2,example
+  ```javascript
+   const {checkType}  = require('sakura.js')
+   let result = checkType([1,2,3],'Array')
+   console.log(result) // true
+  ```
+## 3,API
+| function name | effect   | usage     |          example           |output        |
+| ----          | ----     | ----      |            ----            |----          | 
+| checkType  | check input type |  checkType(data,type) |checkType([1,2,3],'Array') | Boolean|
