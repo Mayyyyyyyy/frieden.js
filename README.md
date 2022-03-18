@@ -12,6 +12,6 @@
    console.log(result) // true
   ```
 ## 3,API
-| function name | effect   | usage     |          example           |output        |
+| name | effect   | usage     |          example           |output        |
 | ----          | ----     | ----      |            ----            |----          | 
 | checkType  | check input type |  checkType(data,type) |checkType([1,2,3],'Array') | Boolean|
