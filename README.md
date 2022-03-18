@@ -1,13 +1,13 @@
-# What is Sakura.js
- Aim to build a util package bringing u a warm feeling like sakura
-# How to use Sakura.js
+# What is frieden.js
+  frieden gives u freedom
+# How to use frieden.js
 ## 1,installation
   ```javascript
-   npm i sakura
+   npm i frieden.js
   ```
 ## 2,example
   ```javascript
-   const {checkType}  = require('sakura.js')
+   const {checkType}  = require('frieden.js')
    let result = checkType([1,2,3],'Array')
    console.log(result) // true
   ```
